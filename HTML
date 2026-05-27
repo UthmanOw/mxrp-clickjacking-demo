@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MXRP RAID - Raided</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .container {
+            text-align: center;
+            background: rgba(0,0,0,0.85);
+            padding: 50px;
+            border-radius: 20px;
+            border: 2px solid #ff4444;
+            box-shadow: 0 0 50px rgba(255,0,0,0.3);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 0 20px rgba(255,0,0,0.3); }
+            50% { box-shadow: 0 0 60px rgba(255,0,0,0.7); }
+            100% { box-shadow: 0 0 20px rgba(255,0,0,0.3); }
+        }
+        
+        h1 {
+            color: #ff4444;
+            font-size: 48px;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .subtitle {
+            color: #ff8888;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        
+        .message {
+            color: #ffffff;
+            font-size: 18px;
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(255,0,0,0.1);
+            border-radius: 10px;
+        }
+        
+        .footer {
+            color: #ff8888;
+            font-size: 14px;
+            margin-top: 30px;
+            border-top: 1px solid #ff4444;
+            padding-top: 20px;
+        }
+        
+        .glitch {
+            font-size: 20px;
+            color: #00ff00;
+            margin-top: 20px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚠️ CUIDADO USUARIOS ⚠️</h1>
+        <div class="subtitle">MXRP - Esta es su seguridad?</div>
+        
+        <div class="message">
+            <strong>RIDED BY LUCIANO EATSBULLET AND ALEXISCEBP</strong><br><br>
+            <span style="color: #ff4444;">FUCK U VA</span><br><br>
+            <strong>get better security</strong><br><br>
+            🏴‍☠️ memes 🏴‍☠️
+        </div>
+        
+        <div class="footer">
+            Vulnerability: Muy simple, arreglenla rapido <br>
+            Status: 🔴 ME LA PELAN<br>
+            Date: May 2026
+        </div>
+        
+        <div class="glitch">
+            > MXRP has been fked <
+        </div>
+    </div>
+    
+    <script>
+        console.log("%c=== MXRP CLICKJACKING VULNERABILITY CONFIRMED ===", "color: red; font-size: 16px");
+        console.log("RIDED BY LUCIANO AND ALEXIS VEGA");
+        console.log("get better security - MXRP has been fked by");
+        
+        // Efecto de glitch opcional
+        setInterval(() => {
+            const glitch = document.querySelector('.glitch');
+            const original = glitch.textContent;
+            if (Math.random() > 0.95) {
+                glitch.textContent = "> ! ! ! HACKED ! ! ! <";
+                setTimeout(() => {
+                    glitch.textContent = original;
+                }, 200);
+            }
+        }, 3000);
+    </script>
+</body>
+</html>
